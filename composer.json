@@ -1,0 +1,60 @@
+{
+    "name": "ozankurt/laravel-shield-filament",
+    "description": "Filament panel adapter for Laravel Shield. v1.x supports Filament 3 + 4. Drops in for users who want a Filament dashboard instead of the bundled Bootstrap one.",
+    "keywords": [
+        "laravel",
+        "shield",
+        "security",
+        "filament",
+        "panel",
+        "admin"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ozan Kurt",
+            "email": "me@ozankurt.com",
+            "homepage": "https://ozankurt.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://laravel-shield.ozankurt.com",
+    "support": {
+        "issues": "https://github.com/OzanKurt/laravel-shield-filament/issues",
+        "source": "https://github.com/OzanKurt/laravel-shield-filament"
+    },
+    "require": {
+        "php": "^8.1",
+        "ozankurt/laravel-shield": "^1.0",
+        "filament/filament": "^3.0|^4.0",
+        "laravel/framework": "^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "orchestra/testbench": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OzanKurt\\ShieldFilament\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OzanKurt\\ShieldFilament\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OzanKurt\\ShieldFilament\\ShieldFilamentServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
