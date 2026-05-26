@@ -1,6 +1,6 @@
 {
     "name": "ozankurt/laravel-shield-filament",
-    "description": "Filament panel adapter for Laravel Shield. v1.x supports Filament 3 + 4. Drops in for users who want a Filament dashboard instead of the bundled Bootstrap one.",
+    "description": "Filament panel adapter for Laravel Shield. v2.x supports Filament 5+. Drops in for users who want a Filament dashboard instead of the bundled Bootstrap one.",
     "keywords": [
         "laravel",
         "shield",
@@ -26,7 +26,7 @@
     "require": {
         "php": "^8.1",
         "ozankurt/laravel-shield": "^1.0",
-        "filament/filament": "^3.0|^4.0",
+        "filament/filament": "^5.0",
         "laravel/framework": "^10.0|^11.0|^12.0"
     },
     "require-dev": {

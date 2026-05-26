@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0] - 2026-05-26
+
+### Added
+- Filament 5+ compatibility (constraint bumped to `^5.0`)
+- All Pages forward-compatible with the v5 Plugin contract + Page lifecycle
+
+### Notes
+- Page contracts and Heroicon classes carry over with no API breakage in v5
+- If we discover v5-specific adjustments needed during real-world testing,
+  they'll land in 2.0.x patches
+
 ## [1.0.0] - 2026-05-26
 
 ### Added

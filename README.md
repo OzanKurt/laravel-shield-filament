@@ -6,15 +6,15 @@ Filament panel adapter for [Laravel Shield](https://github.com/OzanKurt/laravel-
 
 | Adapter version | Filament versions supported |
 |---|---|
-| **`1.x`** *(this branch)* | Filament 3 + 4 |
-| **`2.x`** *(on `2.x` branch)* | Filament 5+ |
+| **`1.x`** *(on `main` branch)* | Filament 3 + 4 |
+| **`2.x`** *(this branch)* | Filament 5+ |
 
 Pin the major that matches your Filament install.
 
 ## Install
 
 ```bash
-composer require ozankurt/laravel-shield-filament:^1.0
+composer require ozankurt/laravel-shield-filament:^2.0
 ```
 
 ## Register the plugin
