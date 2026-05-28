@@ -9,10 +9,12 @@ use OzanKurt\ShieldFilament\Filament\Pages\AuditLogPage;
 use OzanKurt\ShieldFilament\Filament\Pages\CachePage;
 use OzanKurt\ShieldFilament\Filament\Pages\Dashboard as ShieldDashboardPage;
 use OzanKurt\ShieldFilament\Filament\Pages\DiagnosticsPage;
+use OzanKurt\ShieldFilament\Filament\Pages\LicensePage;
 use OzanKurt\ShieldFilament\Filament\Pages\LiveTrafficPage;
 use OzanKurt\ShieldFilament\Filament\Pages\ScannerPage;
 use OzanKurt\ShieldFilament\Filament\Pages\ThreatFeedPage;
 use OzanKurt\ShieldFilament\Filament\Pages\WafRulesPage;
+use OzanKurt\ShieldFilament\Filament\Pages\WebhookDeliveriesPage;
 
 /**
  * Filament plugin entry point — register inside a PanelProvider:
@@ -38,7 +40,9 @@ class ShieldPlugin implements Plugin
             ScannerPage::class,
             WafRulesPage::class,
             ThreatFeedPage::class,
+            WebhookDeliveriesPage::class,
             CachePage::class,
+            LicensePage::class,
             DiagnosticsPage::class,
         ]);
     }
